@@ -5,7 +5,6 @@ const content = document.getElementById('content');
 let result = '';
 const check = () => {
     const boxes = document.getElementsByClassName('cell');
-    console.log(boxes);
     const arr = [
         [0, 1, 2],
         [3, 4, 5],
